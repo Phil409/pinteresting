@@ -7,7 +7,9 @@ $font-family-sans-serif: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-seri
 $brand-primary: #2ecc71;
 $jumbotron-bg: #95a5a6;
 
+@import "bootstrap-sprockets";
 @import 'bootstrap';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
 .center {
 	text-align: center;
